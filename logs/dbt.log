@@ -1,0 +1,30 @@
+[0m19:42:19.907681 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206CB33CB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206CB33B1D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206CB33C9D0>]}
+
+
+============================== 19:42:19.912822 | 905a08b7-bb81-4064-a60a-71564f438bf8 ==============================
+[0m19:42:19.912822 [info ] [MainThread]: Running with dbt=1.6.0
+[0m19:42:19.913822 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\HASBULAH LAWENDATU\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:42:19.914820 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/HASBULAH LAWENDATU/.dbt')}
+[0m19:42:19.915815 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m19:42:41.486146 [debug] [MainThread]: Starter project path: C:\Users\HASBULAH LAWENDATU\Downloads\Project-2-SIB-Kelompok-7B\env\Lib\site-packages\dbt\include\starter_project
+[0m19:42:41.551196 [info ] [MainThread]: 
+Your new dbt project "datasphere_dw" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:42:41.553475 [info ] [MainThread]: Setting up your profile.
+[0m19:43:23.954883 [info ] [MainThread]: Profile datasphere_dw written to C:\Users\HASBULAH LAWENDATU\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m19:43:23.956874 [debug] [MainThread]: Command `dbt init` succeeded at 19:43:23.956874 after 64.06 seconds
+[0m19:43:23.956874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206CAB93650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206C468BDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206C4825A50>]}
+[0m19:43:23.957873 [debug] [MainThread]: Flushing usage events
